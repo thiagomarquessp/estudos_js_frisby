@@ -8,5 +8,18 @@ Instalar o Frisby (via curl ou acessar o site http://frisbyjs.com/.
 Olhar a documentação: http://frisbyjs.com/docs/api/
 
 #VaiVirarForAll
+
+Criar um arquivo package.json: 
+
+{
+"name": "rest_test",
+"author": "Biro Biro",
+"main": "estudo_api.js",
+"version": "0.0.1",
+"dependencies": {
+    "frisby": "latest",
+    "jasmine-node": "latest"
+    }
+}
 ```
 
